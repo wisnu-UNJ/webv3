@@ -1,0 +1,6 @@
+services:
+  ubuntu:
+    container_name: ubuntu
+    build: .
+    ports:
+      - 8080:80
